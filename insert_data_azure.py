@@ -71,18 +71,18 @@ def load_data_to_sql(table_name, csv_file_path):
     print(f"Data loaded into {table_name} successfully.")
 
       
-csv_folder_path = os.path.join(os.getcwd(), 'ebay_ie_csv')
+csv_folder_path = os.path.join(os.getcwd(), 'ebay_db_csv')
 
 # Paths to the CSV files
 csv_files = {
-    "categories": csv_folder_path + "/categories_df.csv",
-    "conditions": csv_folder_path + "/conditions_df.csv",
-    "countries": csv_folder_path + "/countries_df.csv",
-    "items": csv_folder_path + "/items_df.csv",
-    "prices": csv_folder_path + "/prices_df.csv",
-    "reviews": csv_folder_path + "/reviews_df.csv",
-    "sellers": csv_folder_path + "/sellers_df.csv",
-    "seller_item_performance": csv_folder_path + "/seller_item_performance_df.csv",
+    "categories": csv_folder_path + "/categories.csv",
+    "conditions": csv_folder_path + "/conditions.csv",
+    "countries": csv_folder_path + "/countries.csv",
+    "items": csv_folder_path + "/items.csv",
+    "prices": csv_folder_path + "/prices.csv",
+    "reviews": csv_folder_path + "/reviews.csv",
+    "sellers": csv_folder_path + "/sellers.csv",
+    "seller_item_performance": csv_folder_path + "/seller_item_performance.csv",
 }
 
 # Load each CSV file into the corresponding SQL table
