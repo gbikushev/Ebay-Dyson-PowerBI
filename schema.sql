@@ -38,6 +38,7 @@ CREATE TABLE items (
     item_location_country_id NVARCHAR(10) NOT NULL,
     item_location_city NVARCHAR(MAX),
     marketplace_id NVARCHAR(50) NOT NULL,
+    searching_marketplace NVARCHAR(50) NOT NULL,
     FOREIGN KEY (category_id) REFERENCES categories(category_id),
     FOREIGN KEY (condition_id) REFERENCES conditions(condition_id),
     FOREIGN KEY (item_location_country_id) REFERENCES countries(country_id)
