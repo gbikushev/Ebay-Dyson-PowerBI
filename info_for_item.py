@@ -7,7 +7,7 @@ access_token = os.getenv('access_token')
 
 # Replace these with your actual eBay API credentials
 
-item_ids = ['v1|387559552378|0']
+item_ids = ['v1|405306690432|0']
 # v1|126199144924|427211371126
 # v1|276596530300|2560025902430
 # v1|126199144924|427211371126
