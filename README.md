@@ -310,7 +310,9 @@ Customers reviews analyzing of eBay US separately by splitting reviews by 3 revi
 ![us_reviews](readme_files/us_reviews.png)
 
 ## Dashboard Screencast
-<video width="1000" controls>
-  <source src="readme_files/screencast_short.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+Click on the image to watch quick dashboard screencast:
+
+<a href="https://youtu.be/m2TVmIA6q7g" target="_blank">
+    <img src="readme_files/main_page.png" alt="Watch the video" width="500" />
+</a>
