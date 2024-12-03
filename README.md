@@ -248,6 +248,31 @@ Since eBay API does not provide price data for each unit sold, I calculated reve
 
 To achieve it, I used DAX.
 
+## PowerBI Model View
+
+![Model View](readme_files/powerbi_model.png)
+
+**Additional tables were added to the PowerBI model:**
+1. **`Measures Table`:** this table consolidates calculated measures for the project, providing a structured location for key performance indicators (KPIs) and other aggregated metrics.
+ - `category_revenue`: Calculates revenue for each product category.
+ - `country_revenue`: Tracks revenue by country.
+ - `DynamicRevenue`: A dynamic measure to calculate revenue based on filters applied in reports.
+ - `item_revenue`: Revenue for individual items.
+ - `MostProfitableCategory`: Identifies the product category generating the highest revenue.
+ - `MostProfitableCountry`: Identifies the country generating the highest revenue.
+ - `PositiveNumberSold`: Ensures only positive sales figures are included in calculations.
+ - `total_revenue`: A dynamic measure used for cards showing the total revenue.
+
+2. **`Conditions_Grouped Table`:** this table simplifies and groups item conditions, making it easier to analyze trends and patterns related to item conditions.
+ - `condition_id`: A unique identifier for the condition of items.
+ - `new_condition_id`: A mapped ID for grouped or aggregated conditions.
+ - `new_condition_name`: A more descriptive name for grouped conditions (e.g., combining similar conditions under broader categories like "Used" or "Refurbished").
+
+ 3. **`DynamicTitles Table`:** this table provides dynamic titles and measures for enhanced interactivity and customization of reports.
+ - `RevenueCategoryTitle`: Dynamically updates titles for category-specific revenue charts.
+ - `SoldCategoryTitle`: Dynamically updates titles for category-specific sales volume charts.
+
+
 ## PowerBI Dashboard Screenshots
 ### Main page
 
