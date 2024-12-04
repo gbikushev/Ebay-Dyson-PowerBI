@@ -32,8 +32,10 @@
   - [eBay US Styling Tools page](#ebay-us-styling-tools-page)
   - [Reviews eBay IE page](#reviews-ebay-ie-page)
   - [Reviews eBay US page](#reviews-ebay-us-page)
+- [Dashboard Link](#dashboard-link)
 - [Short Dashboard Screencast](#short-dashboard-screencast)
 - [Full Dashboard Screencast](#full-dashboard-screencast)
+
 ## Repository structure
 Folders:
 - `\dashboard layout`: background layout for each page of the Power BI dashboard
@@ -334,6 +336,11 @@ Customers reviews analyzing of eBay IE separately by splitting reviews by 3 revi
 Customers reviews analyzing of eBay US separately by splitting reviews by 3 review types (Positive, Negative, Neutral) with leveraging NLP technologies (WordCloud graphs)
 
 ![us_reviews](readme_files/us_reviews.png)
+
+
+## Dashboard Link
+
+Click on the link to access my PowerBi Dashboard: [View Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiZThlNjk3NjItN2M0NS00MzhiLTkwNDEtN2Q3NTNiNWZjM2ViIiwidCI6ImI2OTBkMDhlLWY5OTctNDFhNi1hMzhiLWM3MzJhZjA5OTkzYiIsImMiOjh9)
 
 ## Short Dashboard Screencast
 
