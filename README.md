@@ -1,4 +1,4 @@
-# Analyzing Dyson Products on eBay Ireland vs eBay US
+# Analyzing Sales Performance of Dyson Products on eBay Ireland vs eBay US
 
 ## Table of Contents
 - [Repository structure](#repository-structure)
