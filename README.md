@@ -32,7 +32,8 @@
   - [eBay US Styling Tools page](#ebay-us-styling-tools-page)
   - [Reviews eBay IE page](#reviews-ebay-ie-page)
   - [Reviews eBay US page](#reviews-ebay-us-page)
-- [Dashboard Screencast](#dashboard-screencast)
+- [Short Dashboard Screencast](#short-dashboard-screencast)
+- [Full Dashboard Screencast](#full-dashboard-screencast)
 ## Repository structure
 Folders:
 - `\dashboard layout`: background layout for each page of the Power BI dashboard
@@ -334,10 +335,18 @@ Customers reviews analyzing of eBay US separately by splitting reviews by 3 revi
 
 ![us_reviews](readme_files/us_reviews.png)
 
-## Dashboard Screencast
+## Short Dashboard Screencast
 
 Click on the image to watch quick dashboard screencast:
 
 <a href="https://youtu.be/m2TVmIA6q7g" target="_blank">
     <img src="readme_files/main_page.png" alt="Watch the video" width="500" />
+</a>
+
+## Full Dashboard Screencast
+
+Click on the image to watch full dashboard screencast with comments:
+
+<a href="https://youtu.be/A2tb6A7xYHI" target="_blank">
+    <img src="readme_files/full_screencast.png" alt="Watch the video" width="500" />
 </a>
